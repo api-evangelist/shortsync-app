@@ -1,4 +1,4 @@
-# shortsync-app
+# ShortSync
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,5 +64,148 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-shortsync-app is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://shortsync.app/
+ShortSync is a social‑media scheduling platform that lets creators upload content once and publish it across 20+ platforms. It offers bulk upload, scheduling, AI‑assisted writing, analytics, and a REST API with MCP support for AI tools. The service includes free and paid plans, a web dashboard, and mobile apps for iOS and Android.
+
+**Areas:** Social Media · Scheduling · Automation · API · Creator
+
+## ShortSync on APIs.io
+
+Everything profiled for ShortSync is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/shortsync-app/](https://apis.io/providers/shortsync-app/)** — or go straight to one of the APIs or properties below.
+
+### APIs (13)
+
+- [ShortSync Analytics API](https://apis.io/apis/shortsync-app/shortsync-app-analytics-api/) — Read per-post analytics and workspace summaries; trigger a fresh sync from the platforms.
+- [ShortSync Billing API](https://apis.io/apis/shortsync-app/shortsync-app-billing-api/) — The organization's plan and add-ons, and Stripe Checkout links to buy them. Account tokens only. Nothing is charged until a person opens the link and pays.
+- [ShortSync Comment DMs API](https://apis.io/apis/shortsync-app/shortsync-app-comment-dms-api/) — Rules that send one private Instagram DM to anyone who comments a keyword, as one text, up to 5 versions, or written by AI, with an optional public reply…
+- [ShortSync Connections API](https://apis.io/apis/shortsync-app/shortsync-app-connections-api/) — Read connected social platform accounts.
+- [ShortSync Identity API](https://apis.io/apis/shortsync-app/shortsync-app-identity-api/) — Token introspection — scopes, organization, workspace, plan, and current monthly API quota.
+- [ShortSync Imports API](https://apis.io/apis/shortsync-app/shortsync-app-imports-api/) — Bring clips, designs and videos from tools the key's creator connected in Settings > Integrations (OpusClip and more) into the library, with their captions.…
+- [ShortSync Inbox API](https://apis.io/apis/shortsync-app/shortsync-app-inbox-api/) — Read and answer comments, mentions, reviews and DMs from Instagram, Facebook, YouTube, Threads, LinkedIn, Bluesky, Mastodon, Telegram and Google Business…
+- [ShortSync Podcast API](https://apis.io/apis/shortsync-app/shortsync-app-podcast-api/) — The workspace's podcast. Read the show and its feeds, add videos as episodes, schedule, edit and delete them, and move an existing podcast to ShortSync.
+- [ShortSync Posts API](https://apis.io/apis/shortsync-app/shortsync-app-posts-api/) — Publish, list, reschedule, and cancel posts.
+- [ShortSync Repurposing API](https://apis.io/apis/shortsync-app/shortsync-app-repurposing-api/) — Workflows that repost an Instagram or Facebook Page account's posts to other accounts, as they're published or older ones on a weekly schedule.
+- [ShortSync Team API](https://apis.io/apis/shortsync-app/shortsync-app-team-api/) — Workspace members (people who log in) and their email invitations. Actions run as the key's creator, with that person's workspace role.
+- [ShortSync Uploads API](https://apis.io/apis/shortsync-app/shortsync-app-uploads-api/) — Upload media to ShortSync storage before publishing.
+- [ShortSync Webhooks API](https://apis.io/apis/shortsync-app/shortsync-app-webhooks-api/) — Get a signed POST request when a post is published, fails or is scheduled (beta).
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### AsyncAPI (1)
+
+Event-driven and webhook contracts.
+
+- [Shortsync App Webhooks](https://apis.io/asyncapis/shortsync-app/shortsync-app-webhooks/)
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [ShortSync Agentic Access](https://apis.io/agentic-access/shortsync-app/shortsync-app-agentic-access/)
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [CommentDmRule](https://apis.io/schemas/shortsync-app/shortsync-app-comment-dm-rule/)
+- [CommentDmRuleInput](https://apis.io/schemas/shortsync-app/shortsync-app-comment-dm-rule-input/)
+- [Post](https://apis.io/schemas/shortsync-app/shortsync-app-post/)
+- [PostCreate](https://apis.io/schemas/shortsync-app/shortsync-app-post-create/)
+- [PostUpdate](https://apis.io/schemas/shortsync-app/shortsync-app-post-update/)
+- [RepurposingWorkflowSettings](https://apis.io/schemas/shortsync-app/shortsync-app-repurposing-workflow-settings/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Shortsync App Context](https://apis.io/jsonld/shortsync-app/shortsync-app-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [ShortSync API Rules](https://apis.io/rules/shortsync-app/shortsync-app-rules/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [ShortSync Authentication](https://apis.io/security/shortsync-app/shortsync-app-authentication/)
+- [ShortSync Domain Security](https://apis.io/security/shortsync-app/shortsync-app-domain-security/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [ShortSync Plans Pricing](https://apis.io/plans/shortsync-app/shortsync-app-plans-pricing/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://shortsync.app/)
+- [Documentation](https://dev.shortsync.app/)
+- [Getting started](https://www.shortsync.app/docs/mcp)
+- [API reference](https://www.shortsync.app/docs/api)
+- [Pricing](https://www.shortsync.app/pricing)
+- [Changelog](https://www.shortsync.app/changelog)
+- [Trust centre](https://www.shortsync.app/trust)
+- [Terms of service](https://www.shortsync.app/terms-of-service)
+- [Privacy policy](https://www.shortsync.app/privacy-policy)
+
+## API Evangelist rating
+
+**Kin Score 63.4** — strong · rubric 0.27.0 · scored 2026-11-24
+
+| Facet | Score |
+|---|---|
+| Discoverability | 66.1 |
+| Contract quality | 70.8 |
+| Contract governance | 79.1 |
+| Operational transparency | 23.7 |
+| Developer ergonomics | 54.0 |
+| Access clarity | 67.9 |
+
+**Agent readiness 66.5** — agent-native
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | served (partial credit) |
+| Idempotency | verified |
+| Error Semantics | verified |
+| OpenAPI Examples | partial |
+| Rate Limit Signal | verified |
+| Event Surface Described | unknown |
+| Agent Skills | unknown |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | served (partial credit) |
+| Protected Resource Metadata | verified |
+| Dynamic Client Registration | yes |
+| Agentic Commerce | — |
+| Pagination Ratio | — |
+| Operation Distinctiveness | distinct |
+| MCP Tool Quality | na |
+
+**Regulatory alignment 29.4** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/shortsync-app/](https://apis.io/providers/shortsync-app/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for ShortSync: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/shortsync-app/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
